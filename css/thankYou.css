@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/bold.woff2) format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/regular.woff2) format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/light.woff2) format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+
+.prompt-container {
+  background-color: #e8e8e8;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.prompt-box {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.icon {
+  margin-bottom: 20px;
+}
+
+.promeTitle {
+  font-family: MontserratBold, sans-serif;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.promeTitle > span {
+  color: rgb(14, 178, 133);
+}
+
+.promtText {
+  font-family: MontserratMedium, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.subscribe-button {
+  color: white;
+  display: flex;
+  cursor: pointer;
+  background-color: #008ae7;
+  box-shadow: 0px 7px 0px 0px rgba(0, 52, 86, 1);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: MontserratSemibold, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  padding: 26px 63px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 78px;
+  margin-bottom: 27px;
+  text-decoration: none;
+}
+
+.subscribe-button:hover {
+  background-color: #1565c0;
+}
