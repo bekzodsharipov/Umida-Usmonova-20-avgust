@@ -2,5 +2,5 @@
     "ecsstractor_port.bem_nesting": true,
     "ecsstractor_tsx_port.bem_nesting": true,
     "ecsstractor_tsx_port.comment_style": "css",
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5502
 }

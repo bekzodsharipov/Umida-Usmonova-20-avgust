@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Asror Iskandarov</title>
+  <title>Umida Usmonova</title>
 
   <!-- Critical CSS inlined for faster rendering -->
   <style>
@@ -114,12 +114,12 @@
       width: 100%;
       background-color: #9b1121;
       border-radius: 30px;
-      font-weight: 400;
-      font-size: 19.84px;
-      line-height: 1.5;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 31px;
       color: white;
       text-align: center;
-      padding: 37px 20px;
+      padding: 37px 69px;
       margin-bottom: 24px;
       border: none;
       cursor: pointer;
@@ -142,7 +142,7 @@
     }
 
     .speakerImg {
-      max-width: 460px;
+      max-width: 610px;
       height: auto;
       object-fit: cover;
     }
@@ -175,7 +175,7 @@
       }
 
       #timer {
-          font-weight: 400;
+        font-weight: 400;
         font-size: 20px;
         line-height: 30px;
         text-align: center;
@@ -240,23 +240,791 @@
         margin-right: auto;
       }
     }
+
+    @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+
+    .hero__subtitle,
+    .hero__title {
+      font-weight: 400;
+      text-transform: uppercase
+    }
+
+    .hero__gift_box,
+    .hero__left_bottom {
+      margin-top: 59px
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: Inter, sans-serif
+    }
+
+    @font-face {
+      font-family: Inter;
+      src: url(../fonts/bold.woff2) format("woff2");
+      font-weight: 700;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: Inter;
+      src: url(../fonts/regular.woff2) format("woff2");
+      font-weight: 400;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: Inter;
+      src: url(../fonts/light.woff2) format("woff2");
+      font-weight: 300;
+      font-display: swap
+    }
+
+    .hero {
+      padding-bottom: 69px;
+      background-color: #f2f2f2
+    }
+
+    .hero__container {
+      padding-top: 10px;
+      max-width: 1200px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 10px;
+      padding-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 46px;
+      position: relative
+    }
+
+    .hero__gift_box,
+    .hero__top {
+      display: flex;
+      align-items: center
+    }
+
+    .hero__left {
+      padding-top: 140px;
+      width: 100%
+    }
+
+    .hero__top {
+      background-color: #dadada;
+      position: absolute;
+      top: 0;
+      max-width: 400px;
+      width: 100%;
+      padding: 26px 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      justify-content: center;
+      gap: 66px
+    }
+
+    .hero__right,
+    .speakerImg {
+      margin-left: -50px;
+      position: relative
+    }
+
+    .hero__top-text {
+      font-weight: 400;
+      font-size: 16.13px;
+      line-height: 25px;
+      margin-bottom: 6px;
+      text-align: left
+    }
+
+    .hero__top-date {
+      font-weight: 400;
+      font-size: 24.13px;
+      line-height: 1.5
+    }
+
+    .hero__top-date>span {
+      color: #9b1121
+    }
+
+    .calendar__img {
+      min-width: 32px
+    }
+
+    .hero__subtitle {
+      width: 100%;
+      font-size: 32px;
+      line-height: 48px;
+      color: #000;
+      margin-bottom: 4px
+    }
+
+    .description__title>span,
+    .hero__gift-text>span,
+    .hero__title {
+      color: #9b1121
+    }
+
+    .hero__title {
+      font-size: 55px;
+      line-height: 100%;
+      margin-bottom: 5px;
+      text-wrap: nowrap
+    }
+
+    .hero__gift_box {
+      gap: 17px;
+      margin-bottom: 32px
+    }
+
+    .hero__gift-text {
+      font-weight: 500;
+      font-size: 19.91px;
+      line-height: 26px
+    }
+
+    .hero__center,
+    .hero__gift-text>span>br {
+      display: none
+    }
+
+    .hero__btn-box {
+      max-width: 430px
+    }
+
+    .hero__registerBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 430px;
+      width: 100%;
+      background-color: #9b1121;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 31px;
+      color: white;
+      text-align: center;
+      padding: 37px 69px;
+      margin-bottom: 24px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .hero__btn_box-text {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: center;
+      color: #444
+    }
+
+    .speakerImg {
+      max-width: 610px;
+      object-fit: cover;
+      z-index: 15
+    }
+
+    .hero__shadow,
+    .hero__shadows {
+      z-index: 10;
+      right: -50px;
+      bottom: -100px;
+      position: absolute
+    }
+
+    .hero__titls {
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0;
+      text-align: center;
+      text-wrap: nowrap
+    }
+
+    .hero__right_info__box {
+      max-width: 460px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .1);
+      backdrop-filter: blur(40px);
+      border: 3px solid rgba(0, 0, 0, .1);
+      border-radius: 24px;
+      position: absolute;
+      bottom: 0px;
+      padding: 10px 10px 18px 20px;
+      z-index: 15
+    }
+
+    .herp__right_infobox-title {
+      font-weight: 400;
+      font-size: 45.56px;
+      line-height: 74px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero__right_list {
+      color: #fff;
+      padding-left: 20px
+    }
+
+    .hero__right_list__item {
+      font-weight: 400;
+      font-size: 18.75px;
+      line-height: 31px
+    }
+
+    .hero__left-text {
+      max-width: 624px;
+      color: #444444;
+      width: 100%;
+      margin-top: 17px;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 20px;
+      line-height: 31px;
+      letter-spacing: 0;
+      margin-bottom: -40px
+    }
+
+    @media (max-width:1205px) {
+      .hero__subtitle {
+        font-size: 28px
+      }
+    }
+
+    @media(min-width:1085px) {
+      .only_mobile {
+        display: none
+      }
+    }
+
+    @media (max-width:1085px) {
+
+      .hero__gift-text>br,
+      .hero__right,
+      .hero__title>span,
+      .only_desktop,
+      .text-14>br {
+        display: none
+      }
+
+      .hero__container {
+        justify-content: center;
+        padding-top: 0;
+        max-width: 390px
+      }
+
+      .hero__top {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+        padding: 10px 20px;
+        margin-bottom: 25px;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        gap: 10px;
+        font-size: 18px
+      }
+
+      #timer {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+        margin-top: 20px
+      }
+
+      .calendar__img {
+        min-width: 24px;
+        width: 24px
+      }
+
+      .hero__top-text {
+        font-size: 12px;
+        margin-bottom: 0
+      }
+
+      .hero__title,
+      .hero__top-date {
+        font-size: 20px
+      }
+
+      .hero__left {
+        padding-top: 0;
+        text-align: center
+      }
+
+      .hero__title {
+        line-height: 30px;
+        text-wrap: wrap;
+        max-width: 358px;
+        width: 100%;
+        margin: 0 auto;
+        font-weight: 700
+      }
+
+      .hero__registerBtn,
+      .text-14 {
+        margin-left: auto;
+        margin-right: auto
+      }
+
+      .hero__subtitle {
+        font-size: 18px;
+        margin-bottom: 6px;
+        line-height: 30px
+      }
+
+      .text-14 {
+        font-size: 14px;
+        line-height: 1.5;
+        max-width: 242px
+      }
+
+      .hero__left_bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 25px;
+        position: relative;
+        z-index: 30
+      }
+
+      .hero__gift_box {
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 0
+      }
+
+      .hero__gift {
+        max-width: 60px
+      }
+
+      .hero__gift-text {
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.3
+      }
+
+      .hero__gift-text>span>br {
+        display: block
+      }
+
+      .speakerImg {
+        max-height: 900px;
+        transform: translateY(-4px)
+      }
+
+      .hero__btn_box-text {
+        font-size: 16px
+      }
+
+      .hero__center {
+        margin-top: -15px;
+        position: relative;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+      }
+
+      .hero__right_info__box {
+        max-width: 303px;
+        padding: 9px 0 9px 9px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 12px;
+        bottom: -10px
+      }
+
+      .hero__right_list {
+        padding-left: 16px
+      }
+
+      .herp__right_infobox-title {
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 2px
+      }
+
+      .hero__right_list__item {
+        font-size: 9px;
+        line-height: 1.5
+      }
+
+      .hero__registerBtn {
+        padding: 23px 20px;
+        border-radius: 15px;
+        margin-bottom: 12px;
+        font-size: 18px;
+        max-width: 307px
+      }
+    }
+
+    #timer,
+    .description__title {
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 74px;
+      text-align: center;
+      text-transform: uppercase
+    }
+
+    @media (max-width:520px) {
+      .hero__titls {
+        text-wrap: wrap
+      }
+    }
+
+    .description {
+      padding-top: 80px;
+      padding-bottom: 64px;
+      background-color: #f2f2f2
+    }
+
+    .description__container {
+      padding-top: 10px;
+      max-width: 1200px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 60px;
+      padding-right: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center
+    }
+
+    .description__title {
+      margin-bottom: 46px
+    }
+
+    .f-button,
+    .f-button i {
+      color: #fff
+    }
+
+    .description__row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 84px;
+      margin-bottom: 49px
+    }
+
+    .description__col {
+      border: 1px solid #9b1121;
+      border-radius: 15px;
+      padding: 32px 13px 31px 67px;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      position: relative
+    }
+
+    .description__col:first-child {
+      padding-left: 54px
+    }
+
+    .description__col-number {
+      position: absolute;
+      left: 0;
+      transform: translateX(-50%);
+      padding: 21px 29px;
+      border-radius: 30px;
+      background-color: #9b1121;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 62px;
+      text-align: center;
+      color: #fff
+    }
+
+    .description__col-text {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 28px
+    }
+
+    .desc__btn,
+    .form-h1 {
+      width: 100%
+    }
+
+    @media (max-width:1085px) {
+      .hero {
+        padding-bottom: 0
+      }
+
+      .description {
+        padding-top: 55px;
+        padding-bottom: 31px
+      }
+
+      .description__container {
+        padding-left: 20px
+      }
+
+      .description__row {
+        grid-template-columns: 1fr;
+        max-width: 304px;
+        margin-bottom: 36px
+      }
+
+      .description__title {
+        max-width: 304px;
+        font-size: 27px;
+        line-height: 42px;
+        margin-bottom: 60px
+      }
+
+      .description__col {
+        padding: 50px 33px 23px
+      }
+
+      .description__col-text {
+        text-align: center;
+        font-size: 16px
+      }
+
+      .description__col-text>br {
+        display: none
+      }
+
+      .description__col-number {
+        font-size: 15px;
+        padding: 15px 19px;
+        line-height: 23px;
+        border-radius: 15px;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%) translateY(-50%)
+      }
+
+      .selected-country {
+        height: 50px
+      }
+    }
+
+    .homeModal,
+    .homeModalOverlay {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0
+    }
+
+    .homeModal {
+      z-index: 1000
+    }
+
+    .homeModalOverlay {
+      background-color: rgba(0, 0, 0, .5);
+      z-index: 1001
+    }
+
+    .form-container {
+      width: 90%;
+      margin: auto
+    }
+
+    #timer,
+    .form-div {
+      margin-top: 20px
+    }
+
+    .form {
+      position: fixed;
+      top: 0;
+      right: 50%;
+      transform: translate(50%, 0);
+      background-color: #fff;
+      height: 100vh;
+      width: 100%;
+      z-index: 1002;
+      font-family: sans-serif
+    }
+
+    .f-button {
+      outline: 0;
+      border: none;
+      background: #000;
+      padding: 0 20px;
+      text-align: right;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      cursor: pointer
+    }
+
+    .country-option:hover,
+    .selected-country {
+      background-color: #f5f5f5
+    }
+
+    .form-h1 h1 {
+      text-align: center;
+      font-size: 24px;
+      color: #000;
+      margin-top: 30px
+    }
+
+    .form label,
+    input[type=tel],
+    input[type=text] {
+      font-size: 16px;
+      color: #000
+    }
+
+    .form label {
+      display: block;
+      margin-bottom: 10px;
+      margin-top: 30px
+    }
+
+    input[type=text] {
+      width: 100%;
+      padding: 15px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px
+    }
+
+    .selected-country,
+    input[type=tel] {
+      padding: 15px 10px;
+      border: 1px solid #ccc
+    }
+
+    input[type=tel] {
+      width: 100%;
+      border-radius: 5px;
+      margin: 2px 0
+    }
+
+    .phone-input,
+    .phone-input-container {
+      display: flex;
+      align-items: center;
+      width: 100%
+    }
+
+    .country-selector {
+      position: relative;
+      min-width: 100px;
+      margin-right: 8px
+    }
+
+    .selected-country {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 4px;
+      cursor: pointer
+    }
+
+    .country-dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 200px;
+      max-height: 250px;
+      overflow-y: auto;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      z-index: 10;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, .1)
+    }
+
+    .country-option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 12px;
+      cursor: pointer;
+      transition: background-color .2s
+    }
+
+    .country-option.selected {
+      background-color: #f0f0f0;
+      font-weight: 500
+    }
+
+    .country-code {
+      color: #666;
+      font-size: .9em
+    }
+
+    .phone-input input {
+      flex: 1;
+      height: 40px
+    }
+
+    .submit-button {
+      width: 100%;
+      padding: 20px 0;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 30px;
+      margin-bottom: 25px;
+      background-color: #9b1121
+    }
+
+    #timer {
+      font-style: normal;
+      width: 100%;
+      max-width: 407px;
+      color: #000
+    }
+
+    .error-message,
+    .warning-p {
+      color: #cb0000;
+      font-size: 14px;
+      margin-top: 5px
+    }
+
+    @media (min-width:480px) {
+      .form {
+        max-width: 560px;
+        width: 100%;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%)
+      }
+
+      .f-button {
+        background-color: transparent;
+        color: #000
+      }
+    }
   </style>
 
-  <!-- Preload critical resources -->
   <link rel="preload" href="./images/speaker.avif" as="image" fetchpriority="high" />
   <link rel="preload" href="../images/calendar.svg" as="image" />
 
-  <!-- Non-critical CSS loaded asynchronously -->
   <link rel="preload" href="../css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript>
     <link rel="stylesheet" href="../css/main.css" />
   </noscript>
-
-  <meta name="facebook-domain-verification" content="uexi04xk6dil4ou29xpm03uirxttyz" />
-  <!-- Meta Pixel Code -->
   <noscript><img height="1" width="1" style="display: none"
       src="https://www.facebook.com/tr?id=1365892134472791&ev=PageView&noscript=1" /></noscript>
-  <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -267,38 +1035,36 @@
           <div class="hero__top-min">
             <img src="../images/calendar.svg" alt="Kalendar belgisi" class="calendar__img" width="32" height="33" />
             <div>
-              <p class="hero__top-date"><span>20-21-</span>Avgust</p>
+              <p class="hero__top-date"><span>20-</span>Avgust</p>
             </div>
           </div>
           <h4 class="hero__top-time">20:00</h4>
         </div>
 
-        <h2 class="hero__subtitle only_desktop">Obunachilarni Mijozga aylantiruvchi</h2>
-        <h1 class="hero__title only_desktop">Shaxsiy brend qurishning</h1>
+        <h2 class="hero__subtitle only_desktop">Dieta va ochliklarsiz</h2>
+        <h1 class="hero__title only_desktop">Yog’lardan qutulishning</h1>
 
-        <h1 class="hero__titls only_mobile">Obunachilarni Mijozga aylantiruvchi</h1>
-        <h1 class="hero__title only_mobile">Shaxsiy Brend qurishning 5 ta qadamli bosqichi</h1>
+        <h1 class="hero__titls only_mobile">Dieta va ochliklarsiz</h1>
+        <h1 class="hero__title only_mobile">Yog’lardan qutulishning</h1>
 
-        <h2 class="hero__subtitle text-14 only_desktop">5 ta qadamli bosqichi</h2>
+        <h2 class="hero__subtitle">eng oson yo’li</h2>
         <p class="hero__left-text only_desktop">
-          BEPUL intensivda Instagram yuritishni boshlab, hizmat yoki mahsulotingizni sotish uchun mijoz jalb qilishni o’rganasiz!
+          Bepul intensivda siz Dieta Ochlik va Stresslarsiz yog’nig hisobiga ozishni va atyoklarni yo’qotib formangizni
+          saqlashni o’rganasiz
         </p>
 
         <div class="hero__center">
-          <img class="hero__shadows" fetchpriority="high" src="./images/shaddow-res.avif" alt="" />
-          <img width="280" height="371" class="speakerImg" fetchpriority="high" loading="eager" src="./images/speaker.avif" alt="Asror Iskandarov rasmi" />
+          <img width="315" height="389" class="speakerImg" fetchpriority="high" loading="eager"
+            src="./images/speaker.avif" alt="Umida Usmonova" />
 
           <div class="hero__right_info__box">
-            <h3 class="herp__right_infobox-title">Asror Iskandarov</h3>
+            <h3 class="herp__right_infobox-title">Umida Usmonova</h3>
             <ul class="hero__right_list">
               <li class="hero__right_list__item">
-                2019-yildan buyon shaxsiy brend yuritish bilan shug’illanaman
+                2000-yildan buyon Dieta trener va sog'lomlashtirish bilan shug'ullanaman
               </li>
               <li class="hero__right_list__item">
-                Mijozlarimga 1 mln+ maqsadli obunachi olib keldim
-              </li>
-              <li class="hero__right_list__item">
-                Reelslar umumiy 100 mln+ marotaba ko’rildi
+                1000+ mamnun ayollar
               </li>
             </ul>
           </div>
@@ -312,21 +1078,21 @@
           </div>
         </div>
 
-        <div id="timer" aria-live="polite">00:00:90</div>
+        <div id="timer" aria-live="polite">00:02:00</div>
       </div>
 
       <div class="hero__right" aria-hidden="true">
-        <img class="hero__shadow" fetchpriority="high" loading="eager" src="./images/shadow-min.avif" alt="" />
-        <img width="460" height="610" fetchpriority="high" loading="eager" class="speakerImg" src="./images/speaker.avif" alt="Asror Iskandarov rasmi" />
+        <img width="610" height="907" fetchpriority="high" loading="eager" class="speakerImg"
+          src="./images/speaker.avif" alt="Umida Usmonova" />
         <div class="hero__right_info__box">
-          <h3 class="herp__right_infobox-title">Asror Iskandarov</h3>
+          <h3 class="herp__right_infobox-title">Umida Usmonova</h3>
           <ul class="hero__right_list">
-            <li>2019-yildan buyon shaxsiy brend yuritish bilan shug’ullanyapman</li>
-            <li>Mijozlarimga 1 mln+ maqsadli obunachi olib keldim</li>
-            <li>Reelslar umumiy 100 mln+ marotaba ko’rildi</li>
+            <li>2000-yildan buyon Dieta trener va sog'lomlashtirish bilan shug'ullanaman</li>
+            <li>1000+ mamnun ayollar
+               </li>
           </ul>
         </div>
-        
+
       </div>
     </div>
   </section>
@@ -338,31 +1104,28 @@
         <div class="description__col">
           <h3 class="description__col-number">01</h3>
           <p class="description__col-text">
-            Obunachilar sizni faqat kuzatmay, xizmat yoki mahsulotlaringizni sotib oladigan mijozlarga aylantirishni
-          </p>
+            Dieta va stresslarsiz, och qolmasdan oson vazn yo‘qotishni o‘rganasiz. </p>
         </div>
         <div class="description__col">
           <h3 class="description__col-number">02</h3>
           <p class="description__col-text">
-            Shaxsiy brendingiz bilan raqobatchilar orasida farq qilish va auditoriyani o‘ziga tortadigan mutaxassisga
-            aylanishni
+            Yog’ hisobiga 1 oyda 5–8 kg vazn tashlash usullarini bilib olasiz.
           </p>
         </div>
         <div class="description__col">
           <h3 class="description__col-number">03</h3>
           <p class="description__col-text">
-            Instagramingizni kuchaytirib, xizmat yoki mahsulot narxini oshirishni o’rganasiz </p>
+            Osilib qolgan qorinni mashqlar yordamida oson va tez yo‘qotish sirlarini o‘rganasiz.
         </div>
       </div>
       <div class="hero__btn-box desc__btn">
-        <button class="hero__registerBtn">BEPUL QATNASHISH >>></button>
+        <button class="hero__registerBtn">BEPUL QATNASHISH >></button>
         <p class="hero__btn_box-text only_desktop">Masterklassga qatnashish uchun bosing</p>
         <p class="hero__btn_box-text only_mobile">Bepul qatnashish uchun bosing</p>
       </div>
     </div>
   </div>
 
-  <!-- Registration Modal -->
   <div id="registrationModal" role="dialog" aria-labelledby="dialogTitle" class="homeModal" style="display: none">
     <div class="homeModalOverlay"></div>
     <div class="form">
@@ -394,7 +1157,6 @@
                   </svg>
                 </div>
                 <div class="country-dropdown" id="countryDropdown" style="display: none">
-                  <!-- Country options will be added by JavaScript -->
                 </div>
               </div>
               <input type="tel" id="phone" name="phone" placeholder="88 888 88 88" />
@@ -414,37 +1176,27 @@
   <script src="../js/app.js" defer></script>
 
   <script>
-    let milliseconds = 90;
-    let seconds = 0;
-    let minutes = 0;
+    let totalSeconds = 2 * 60;
 
     const timerElement = document.getElementById("timer");
 
     const countdown = setInterval(() => {
-      if (milliseconds === 0) {
-        if (seconds === 0) {
-          if (minutes === 0) {
-            clearInterval(countdown);
-            return;
-          } else {
-            minutes--;
-            seconds = 59;
-            milliseconds = 99;
-          }
-        } else {
-          seconds--;
-          milliseconds = 99;
-        }
-      } else {
-        milliseconds--;
+      if (totalSeconds <= 0) {
+        clearInterval(countdown);
+        return;
       }
 
-      let m = minutes.toString().padStart(2, "0");
-      let s = seconds.toString().padStart(2, "0");
-      let ms = milliseconds.toString().padStart(2, "0");
+      totalSeconds--;
 
-      timerElement.textContent = `${m}:${s}:${ms}`;
-    }, 100);
+      let minutes = Math.floor(totalSeconds / 60);
+      let seconds = totalSeconds % 60;
+
+      let m = minutes.toString().padStart(2, "0"); // 2 raqam bo‘lishi shart
+      let s = seconds.toString().padStart(2, "0");
+
+      timerElement.textContent = `00:${m}:${s}`;
+    }, 1000);
+
   </script>
 </body>
 
